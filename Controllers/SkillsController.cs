@@ -20,6 +20,7 @@ namespace SkillsTracker.Controllers
                     "<li>JavaScript</li>" +
                     "<li>Python</li>" +
                 "</ol>";
+
             return Content(html, "text/html");
         }
 
